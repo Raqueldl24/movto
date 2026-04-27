@@ -1,3 +1,9 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
 <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
 
 <a-entity
@@ -7,3 +13,6 @@
   animation__mouseleave="property: components.material.material.color; type: color; to: red; startEvents: mouseleave; dur: 500";
   animation__customevent="property: components.material.material.color; type: color; from: red; to: blue; startEvents: triggeranimation; dur: 500";>
 </a-entity>
+</a-scene>
+</body>
+</html>
