@@ -13,6 +13,12 @@
   animation__mouseleave="property: components.material.material.color; type: color; to: red; startEvents: mouseleave; dur: 500";
   animation__customevent="property: components.material.material.color; type: color; from: red; to: blue; startEvents: triggeranimation; dur: 500";>
 </a-entity>
+ <a-entity id="rig" position="0 1 4 ">
+        <a-camera id="camera"></a-camera>
+      </a-entity>
+     <a-sky src="campo.jpg" rotation="0 0 0"></a-sky>
+      <a-entity id="leftHand" hand-tracking-controls="hand: left;"></a-entity>
+      <a-entity id="rightHand" hand-tracking-controls="hand: right;"></a-entity>
 </a-scene>
 </body>
 </html>
